@@ -19,7 +19,7 @@
     "next": "14.2.4",
     "next-auth": "^4.24.7",
     "next-themes": "^0.3.0",
-    "ondemand-react-chat-bot": "^1.2.2",
+    "ondemand-react-chat-bot": "^1.2.4",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.5",

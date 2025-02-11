@@ -1252,10 +1252,10 @@ oidc-token-hash@^5.0.3:
   resolved "https://registry.npmjs.org/oidc-token-hash/-/oidc-token-hash-5.0.3.tgz#9a229f0a1ce9d4fc89bcaee5478c97a889e7b7b6"
   integrity sha512-IF4PcGgzAr6XXSff26Sk/+P4KZFJVuHAJZj3wgO3vX2bMdNVp/QXTP3P7CEm9V1IdG8lDLY3HhiqpsE/nOwpPw==
 
-ondemand-react-chat-bot@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/ondemand-react-chat-bot/-/ondemand-react-chat-bot-1.2.2.tgz#abaff6a7a2683971a627d679bb3dd8c622bec231"
-  integrity sha512-rk+IVCoStBQz3Fk9i5HOoU2ozucpDqsKyl0M6dXv0aiYQxE+XSDEtANWZIc0g4nHqFWYiJ2Pq8Sj9lTJRkxNww==
+ondemand-react-chat-bot@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/ondemand-react-chat-bot/-/ondemand-react-chat-bot-1.2.4.tgz#3d42a0ff1b642daec4f9498d46d78688695bada7"
+  integrity sha512-8fCf2JPQ2XNzNUW/GTjbwMhT6GFDY1lHm1+g7IDHoEONYUrLSYZ9m/nLFg559KyboBH76JKBRafbD2RGRDoWfw==
   dependencies:
     markdown-to-jsx "^7.7.3"
 

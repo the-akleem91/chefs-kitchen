@@ -19,7 +19,7 @@ export default function Home() {
       <Expert />
       <Gallery />
       <Newsletter />
-      <OnDemandChatBot apiKey={API_KEY!} botId={BOT_ID!} />
+      <OnDemandChatBot apiKey={API_KEY!} botId={BOT_ID!} environment="dev" />
     </main>
   );
 }

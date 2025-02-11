@@ -14,14 +14,12 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Header: React.FC = () => {
   const pathUrl = usePathname();
-  const { theme, setTheme } = useTheme();
 
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
   const [isSignInOpen, setIsSignInOpen] = useState(false);
   const [isSignUpOpen, setIsSignUpOpen] = useState(false);
 
-  const navbarRef = useRef<HTMLDivElement>(null);
   const signInRef = useRef<HTMLDivElement>(null);
   const signUpRef = useRef<HTMLDivElement>(null);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
@@ -71,8 +69,11 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 z-40 w-full transition-all duration-300 ${sticky ? " shadow-lg bg-white dark:bg-gray-600 py-4" : "shadow-none py-8"
-        }`}
+      className={`fixed top-0 z-40 w-full transition-all duration-300 ${
+        sticky
+          ? " shadow-lg bg-white dark:bg-gray-600 py-4"
+          : "shadow-none py-8"
+      }`}
     >
       <div className="lg:py-0 py-2">
         <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4">
@@ -164,8 +165,9 @@ const Header: React.FC = () => {
         )}
         <div
           ref={mobileMenuRef}
-          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? "translate-x-0" : "translate-x-full"
-            } z-50`}
+          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${
+            navbarOpen ? "translate-x-0" : "translate-x-full"
+          } z-50`}
         >
           <div className="flex items-center justify-between p-4">
             <h2 className="text-lg font-bold text-midnight_text dark:text-midnight_text">

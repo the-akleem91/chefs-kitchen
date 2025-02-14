@@ -17,7 +17,7 @@ export default function Home() {
       <Expert />
       <Gallery />
       <Newsletter />
-      <OnDemandChatBot apiKey={API_KEY!} botId={BOT_ID!} environment="prod" />
+      <OnDemandChatBot apiKey={API_KEY!} botId={BOT_ID!} />
     </main>
   );
 }
